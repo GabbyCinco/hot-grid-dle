@@ -11,6 +11,8 @@ html {
   -o-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: 'Roboto Slab', serif;
 }
 
 *, *::before, *::after {
@@ -18,6 +20,10 @@ html {
 }
 
 body {
+  margin: 0;
+}
+
+figure {
   margin: 0;
 }
 
@@ -34,8 +40,4 @@ body {
   position: absolute;
   bottom: 2em;
   left: 2em;
-}
-
-figure {
-  margin: 0;
 }
