@@ -27,6 +27,15 @@ figure {
   margin: 0;
 }
 
+figcaption {
+  color: #fff;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 1rem;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 9px;
+}
+
 .img-flex {
   display: block;
   width: 100%;
